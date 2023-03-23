@@ -3,7 +3,7 @@ public class Calculator {
     public final double PI = 3.14;
 
     public static void main(String[] args) {
-        Calculator calc = new Calculator();
+        Calculator calculator = new Calculator();
     }
 
     // public Calculator() { // Default constructor
@@ -50,7 +50,7 @@ public class Calculator {
     // the following conventions:
     // e.g.
     // int x = multiply(3, modulus(27, 4)); // x == 9
-    // double y = add(3, divide(7.0, 2.0));     // y == 6.5
+    // double y = add(3, divide(7.0, 2.0)); // y == 6.5
 
     // Hint: use method overloading
 }
