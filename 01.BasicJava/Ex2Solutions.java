@@ -71,6 +71,20 @@ public class Ex2Solutions {
 
             int i = 6;
             int j = 8;
+            int[][] array = new int[i][j];
+            for (int a = 0; a < i; a++) {
+                for (int b = 0; b < j; b++) {
+                    array[a][b] = a + b;
+                }
+            }
+
+            // Check
+            for (int a = 0; a < i; a++) {
+                System.out.println();
+                for (int b = 0; b < j; b++) {
+                    System.out.printf("%2d ", array[a][b]);
+                }
+            }
         }
     }
 
