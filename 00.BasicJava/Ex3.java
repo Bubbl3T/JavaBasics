@@ -83,6 +83,10 @@ public class Ex3 {
         // Tip: How do we find out the length of the array?
         
     }
+
+    /**************************
+     * Intermediate questions *
+     **************************/
     
     /**
      * Q6: Print the pyramid of n.
@@ -102,10 +106,6 @@ public class Ex3 {
         
     }
 
-    /**************************
-     * Intermediate questions *
-     **************************/
-
      /**
       * Q7: Print the sum of numbers from 1 to n.
       * (Loops)
@@ -120,16 +120,23 @@ public class Ex3 {
      * (Loop updating)
      */
     private static void q8(int n) {
-        // Tip: Maybe we can modify the statements in the for loop itself?
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) { // Tip: Maybe we can modify this line?
+
+            // DO NOT MODIFY
             if (i % 2 == 1) { // If i is odd
                 System.out.println("I SHOULD NOT BE PRINTED");
                 break;
             } else {          // If i is even
                 System.out.println(i);
             }
+            // END DO NOT MODIFY
+            
         }
     }
+
+    /**********************
+     * Advanced questions *
+     **********************/
 
     /**
      * Q9: Print the first n numbers of the Fibonacci sequence.
@@ -139,10 +146,6 @@ public class Ex3 {
         // Tip: Think about how the Fibonacci sequence is produced.
 
     }
-
-    /**********************
-     * Advanced questions *
-     **********************/
 
      
     
