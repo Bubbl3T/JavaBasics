@@ -1,3 +1,5 @@
+package classroom.electronics;
+
 public abstract class Electronics {
 
     private int cost;

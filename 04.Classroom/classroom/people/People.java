@@ -1,3 +1,5 @@
+package classroom.people;
+
 public class People {
 
     private String name;

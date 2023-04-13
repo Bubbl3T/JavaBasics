@@ -1,3 +1,5 @@
+package classroom;
+
 public enum Attendance {
     PRESENT("present"),
     ABSENT("absent"),

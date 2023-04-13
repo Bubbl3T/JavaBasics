@@ -1,3 +1,5 @@
+package classroom.electronics;
+
 public class Projector extends Electronics implements Power {
 
     public Projector() {

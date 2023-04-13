@@ -1,3 +1,10 @@
+package classroom;
+
+import classroom.electronics.Fan;
+import classroom.electronics.Projector;
+import classroom.people.Student;
+import classroom.people.Teacher;
+
 public class Classroom {
 
     private static Classroom classroom = new Classroom();

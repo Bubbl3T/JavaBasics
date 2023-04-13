@@ -1,4 +1,8 @@
+package main;
+
 import java.util.Scanner;
+
+import classroom.Classroom;
 
 public class Main {
 

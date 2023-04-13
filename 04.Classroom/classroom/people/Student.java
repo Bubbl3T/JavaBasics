@@ -1,14 +1,19 @@
+package classroom.people;
+
+import static classroom.Attendance.*;
+import classroom.Attendance;
+
 public class Student extends People{
 
     private Attendance attendance;
 
     public Student(String name) {
         super(name);
-        this.attendance = Attendance.ABSENT;
+        this.attendance = ABSENT;
     }
 
     public void markAttendance() {
-        this.attendance = Attendance.PRESENT;
+        this.attendance = PRESENT;
         System.out.println(super.getName() + " is " + this.attendance.label);
     }
     

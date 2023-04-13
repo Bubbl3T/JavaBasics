@@ -1,3 +1,5 @@
+package classroom.people;
+
 public class Teacher extends People {
     
     public Teacher(String name) {

@@ -1,3 +1,5 @@
+package classroom.electronics;
+
 public interface Power {
 
     default void turnOn() {

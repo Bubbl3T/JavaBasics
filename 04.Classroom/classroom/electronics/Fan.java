@@ -1,3 +1,5 @@
+package classroom.electronics;
+
 public class Fan extends Electronics implements Power, Speed {
 
     private int speed = 0;
