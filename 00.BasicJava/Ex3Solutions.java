@@ -1,37 +1,37 @@
 public class Ex3Solutions {
 
     public static void main(String[] args) {
-        // System.out.println("Question 1");
-        // q1(5); // 5
-        // q1(6); // Even number
+        System.out.println("Question 1");
+        q1(5); // 5
+        q1(6); // Even number
 
-        // System.out.println("Question 2");
-        // q2(5);
+        System.out.println("Question 2");
+        q2(5);
 
-        // System.out.println("Question 3");
-        // q3(6); // Even
-        // q3(9); // Yay
-        // q3(17); // 17
+        System.out.println("Question 3");
+        q3(6); // Even
+        q3(9); // Yay
+        q3(17); // 17
 
-        // System.out.println("Question 4");
-        // int[] n1 = {7, 8, 9, 4, 5, 6, 1, 2, 3};
-        // q4(n1, 1); // 8
+        System.out.println("Question 4");
+        int[] n1 = {7, 8, 9, 4, 5, 6, 1, 2, 3};
+        q4(n1, 1); // 8
 
-        // System.out.println("Question 5");
-        // int[] n2 = {90, 55, 13, 71};
-        // q5(n2); // 90, 55, 13, 71
+        System.out.println("Question 5");
+        int[] n2 = {90, 55, 13, 71};
+        q5(n2); // 90, 55, 13, 71
 
-        // System.out.println("Question 6");
-        // q6(6); // Should give the same pyramid as shown in the example.
+        System.out.println("Question 6");
+        q6(6); // Should give the same pyramid as shown in the example.
 
-        // System.out.println("Question 7");
-        // q7(100); // 5050
+        System.out.println("Question 7");
+        q7(100); // 5050
 
-        // System.out.println("Question 8");
-        // q8(10); // 2, 4, 6, 8, 10 
+        System.out.println("Question 8");
+        q8(10); // 2, 4, 6, 8, 10 
 
-        // System.out.println("Question 9");
-        // q9(11); // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+        System.out.println("Question 9");
+        q9(11); // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
     }
 
     /*******************
