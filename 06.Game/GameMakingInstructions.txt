@@ -1,0 +1,25 @@
+Step 01: Define parameters to represent ROCK, SCISSORS and PAPER. (done)
+Step 02: Define parameters to represent your current score and the AI's current score.
+Step 03: Write a method named "printMenu" that prints the menu. (You can customize the method to 
+         print anything you want.) The following is an example menu:
+
+         Welcome to the game of Scissors Paper Stone!
+         Enter 1 to play and 2 to exit.
+
+Step 04: Write a method named "getInput" that returns the next integer keyed in by the user.
+Step 05: Write a method named "compareShapes" that takes in 2 shapes and return the results.
+         The method should take in 2 arguments, being "aiChoice" and "userChoice". If the AI wins,
+         return -1. If the user wins, return 1. If it is a tie, return 0.
+Step 06: Write a method named "checkValidShape" that takes in a single argument and check that it 
+         belongs to either ROCK, SCISSORS or PAPER.
+Step 07: Write a method named "newRound" that does the following:
+         1. Print the scores of the user and the AI.
+         2. Let the AI decide on what shape to use later.
+         3. Print a menu to let the user select ROCK, SCISSORS or PAPER.
+         4. Check that the user's choice is valid.
+            4a. If the user's choice is invalid, get the user to choose again.
+         5. Compare the user's choice with the AI's choice to see who wins the round.
+         6. Print the AI's choice.
+         7. Print the result of the round.
+         8. Update the scores.
+Step 08: Combine the code in the "main" method.
