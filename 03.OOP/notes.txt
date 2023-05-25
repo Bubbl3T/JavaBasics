@@ -1,0 +1,23 @@
+Method
+
+1) Static method
+Class.method();
+
+2) Non-static method
+Class c = new Class();
+c.method();
+
+
+
+Access modifier
+Static / non-Static
+Return type
+Method name
+Argument list
+
+public static double squareSquareSqaure(int i) {
+    return i++;
+}
+
+Class.square(5);
+int i = 5;

@@ -116,7 +116,7 @@ public class Ex3 {
     }
 
     /**
-     * Q8: Print the sum of even numbers from 1 to n. However, you cannot modify the if else block.
+     * Q8: Print all the even numbers from 1 to n. However, you cannot modify the if else block.
      * (Loop updating)
      */
     private static void q8(int n) {
