@@ -9,7 +9,7 @@ public class Game {
     private static Random random = new java.util.Random();
     
     public static int aiChoice() {
-        return Game2.random.nextInt(3);
+        return Game.random.nextInt(3);
     }
 
 }

@@ -1,7 +1,7 @@
 public class Sort {
 
     public static void main(String[] args) {
-        int[] array = {5, 7, 6, 3, 0 ,2 ,1, 9, 4, 8};
+        int[] array = {5, 7, 6, 3, 0, 2, 1, 9, 4, 8};
 
         // Min
         System.out.println("Min:");
@@ -62,7 +62,6 @@ public class Sort {
         final int SIZE = array.length;
 		// Write your code here
 		return 0;
-
     }
 
     public static void bubbleSort(int[] array) {
